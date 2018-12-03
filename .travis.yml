@@ -1,4 +1,4 @@
 language: clojure
-lein: lein
+lein: 2.7.1 # version 2 and up
 jdk:
   - openjdk8
