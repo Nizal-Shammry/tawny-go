@@ -13,7 +13,7 @@
   features as Core plus name synonyms and manually added
   cross-reference. "}
   {0, "go.owl"
-   1, "go-plus.owl"
+   1, "go_plus.owl"
    2, "go_snippet.owl"})
 
 ;; chosen version
