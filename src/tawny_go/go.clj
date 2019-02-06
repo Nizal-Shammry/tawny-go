@@ -1,4 +1,4 @@
-(ns tawny.go
+(ns tawny-go.go
   (:refer-clojure :only [partial println])
   (:require [tawny read memorise])
   (:import [java.util.zip GZIPInputStream]))
@@ -40,7 +40,7 @@
   :location
   (tawny.owl/iri (clojure.java.io/resource version))
   :iri "http://purl.obolibrary.org/obo/go.owl"
-  :viri "http://purl.obolibrary.org/obo/go/releases/2018-11-14/go.owl"
+  :viri "http://purl.obolibrary.org/obo/go/releases/2019-02-04/go.owl"
   :prefix "go:"
   :filter
    (partial tawny.read/iri-starts-with-filter
